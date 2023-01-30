@@ -37,7 +37,7 @@ let fourGeneratedName = "";
 let fiveGeneratedName = "";
 
 function RNG(){
-    randomNumber = Math.floor(Math.random(33) * 34); 
+    randomNumber = Math.floor(Math.random(40) * 41); 
 }
 
 getDataBtn.addEventListener("click",function(){
