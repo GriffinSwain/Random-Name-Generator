@@ -1,0 +1,88 @@
+.background{
+    background-image: url(/Assets/CalvinPaperBackground.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 36.25%;
+}
+
+.displayName{
+    justify-content: center;
+    margin-top: 15vh;
+    transform: rotateZ(-3.5deg);
+}
+
+.selectButton{
+    transform: rotateZ(-3.5deg);
+    margin-top: -1.5vh;
+}
+
+.firstName{
+    justify-content: center;
+    margin-top: 6.5vh;
+    transform: rotateZ(-3.5deg);
+}
+
+.secondName{
+    justify-content: center;
+    margin-top: 2vh;
+    transform: rotateZ(-3.5deg);
+}
+
+.thirdName{
+    justify-content: center;
+    margin-top: 3vh;
+    transform: rotateZ(-3.5deg);
+}
+
+.fourthName{
+    justify-content: center;
+    margin-top: 4vh;
+    transform: rotateZ(-3.5deg);
+}
+
+.fifthName{
+    justify-content: center;
+    margin-top: 3vh;
+    transform: rotateZ(-3.5deg);
+}
+
+.displayName2{
+    justify-content: center;
+    margin-top: 22vh;
+    transform: rotateZ(-3.5deg);
+}
+
+.selectButton2{
+    transform: rotateZ(-3.5deg);
+    margin-top: -2.5vh;
+}
+
+.firstNewName{
+    justify-content: center;
+    margin-top: 4.5vh;
+    transform: rotateZ(-3.5deg);
+}
+
+.secondNewName{
+    justify-content: center;
+    margin-top: 3vh;
+    transform: rotateZ(-3.5deg);
+}
+
+.thirdNewName{
+    justify-content: center;
+    margin-top: 4vh;
+    transform: rotateZ(-3.5deg);
+}
+
+.fourthNewName{
+    justify-content: center;
+    margin-top: 4vh;
+    transform: rotateZ(-3.5deg);
+}
+
+.fifthNewName{
+    justify-content: center;
+    margin-top: 3vh;
+    transform: rotateZ(-3.5deg);
+}
