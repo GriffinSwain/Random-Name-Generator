@@ -49,14 +49,14 @@ createNameBtn.addEventListener("click", function(){
 })
 
 
-async function CreateName(){
+function CreateName(){
     RNG();
     console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-    await GetJson();
+    GetJson();
     firstHalf = randomData.Names[randomNumber].nameBeginning;
     console.log("First half is " + randomData.Names[randomNumber].firstName);
     RNG();
-    await GetJson();
+    GetJson();
     secondHalf = randomData.Names[randomNumber].nameEnding;
     console.log("Mixed with " + randomData.Names[randomNumber].firstName);
     
@@ -87,9 +87,9 @@ async function CreateName(){
     secondCounter++;
 }
 
-async function RandomNameSelector(){
+function RandomNameSelector(){
     RNG();
-    await GetJson();
+    GetJson();
 
     if (counter >= 5){
         fiveName = fourName;
@@ -118,8 +118,8 @@ async function RandomNameSelector(){
     counter++;
 }
 
-async function GetJson() {
-    await fetch('../data/names.json').then(
+function GetJson() {
+    fetch('../data/names.json').then(
         response => response.json()
     ).then(
         data => {
